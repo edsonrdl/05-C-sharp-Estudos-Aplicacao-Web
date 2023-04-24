@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="01-Ferramenta-de-desenvolvimento-web-csharp\WebFormMensagem.aspx" />
+    <Content Include="02-Componentes\WebFormComponentes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="01-Ferramenta-de-desenvolvimento-web-csharp\WebFormMensagem.aspx.designer.cs">
       <DependentUpon>WebFormMensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="02-Componentes\WebFormComponentes.aspx.cs">
+      <DependentUpon>WebFormComponentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="02-Componentes\WebFormComponentes.aspx.designer.cs">
+      <DependentUpon>WebFormComponentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -89,6 +97,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

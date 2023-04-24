@@ -7,7 +7,7 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace _01_Introducao_a_Aplicacao_Web._01_Ferramenta_de_desenvolvimento_web_csharp
+namespace _01_Introducao_a_Aplicacao_Web._02_Componentes
 {
 
 
@@ -33,6 +33,15 @@ namespace _01_Introducao_a_Aplicacao_Web._01_Ferramenta_de_desenvolvimento_web_c
         protected global::System.Web.UI.WebControls.TextBox TextBoxMensagem;
 
         /// <summary>
+        /// Controle telefoneID.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText telefoneID;
+
+        /// <summary>
         /// Controle ButtonMensagem.
         /// </summary>
         /// <remarks>
@@ -40,5 +49,14 @@ namespace _01_Introducao_a_Aplicacao_Web._01_Ferramenta_de_desenvolvimento_web_c
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonMensagem;
+
+        /// <summary>
+        /// Controle ddlContatos.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlContatos;
     }
 }

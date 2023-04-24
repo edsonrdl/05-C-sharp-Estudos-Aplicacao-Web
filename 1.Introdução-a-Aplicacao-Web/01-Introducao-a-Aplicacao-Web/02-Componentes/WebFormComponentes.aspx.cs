@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_Introducao_a_Aplicacao_Web._01_Ferramenta_de_desenvolvimento_web_csharp
+namespace _01_Introducao_a_Aplicacao_Web._02_Componentes
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
@@ -17,7 +17,14 @@ namespace _01_Introducao_a_Aplicacao_Web._01_Ferramenta_de_desenvolvimento_web_c
         protected void ButtonMensagem_Click(object sender, EventArgs e)
         {
             Response.Write("Olá " + TextBoxMensagem.Text);
-            Response.Write("<script>alert('Olá"+TextBoxMensagem.Text +"')</script> ");
+            Response.Write("Olá " + Request["TextBoxMensagem"]);
+            Response.Write("telefone " + Request["telefoneID"] + telefoneID.Value);
+
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
