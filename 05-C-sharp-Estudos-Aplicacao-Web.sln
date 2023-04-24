@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Introducao-a-Aplicacao-Web", "1.Introdução-a-Aplicacao-Web\01-Introducao-a-Aplicacao-Web\01-Introducao-a-Aplicacao-Web.csproj", "{A051149C-E900-4BB0-8E4C-4FDB106F651A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Conceitos-basicos-de-desenvolvimento-web", "2.Conceitos-basicos-de-desenvolvimento-web\2.Conceitos-basicos-de-desenvolvimento-web.csproj", "{4BAB9683-9DD6-43D5-AB62-4376E2F7DD51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Criacao-de-aplicacao-web-com-asp.net-core", "1.Criacao-de-aplicacao-web-com-asp.net-core\01-Criacao-de-aplicacao-web-com-asp.net-core\01-Criacao-de-aplicacao-web-com-asp.net-core.csproj", "{A051149C-E900-4BB0-8E4C-4FDB106F651A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{A051149C-E900-4BB0-8E4C-4FDB106F651A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A051149C-E900-4BB0-8E4C-4FDB106F651A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A051149C-E900-4BB0-8E4C-4FDB106F651A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BAB9683-9DD6-43D5-AB62-4376E2F7DD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BAB9683-9DD6-43D5-AB62-4376E2F7DD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BAB9683-9DD6-43D5-AB62-4376E2F7DD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BAB9683-9DD6-43D5-AB62-4376E2F7DD51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

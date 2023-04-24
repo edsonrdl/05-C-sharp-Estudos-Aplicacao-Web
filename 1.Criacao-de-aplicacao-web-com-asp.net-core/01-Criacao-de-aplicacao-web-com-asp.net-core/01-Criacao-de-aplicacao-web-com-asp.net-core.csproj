@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="01-Ferramenta-de-desenvolvimento-web-csharp\WebFormMensagem.aspx" />
     <Content Include="02-Componentes\WebFormComponentes.aspx" />
+    <Content Include="03-HTTP-HTTPS\WebFormHttpHttps.aspx" />
+    <Content Include="05-Cadastro-em-memoria\WebFormComponentes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +87,21 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="02-Componentes\WebFormComponentes.aspx.designer.cs">
+      <DependentUpon>WebFormComponentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03-HTTP-HTTPS\WebFormHttpHttps.aspx.cs">
+      <DependentUpon>WebFormHttpHttps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03-HTTP-HTTPS\WebFormHttpHttps.aspx.designer.cs">
+      <DependentUpon>WebFormHttpHttps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="05-Cadastro-em-memoria\Contato.cs" />
+    <Compile Include="05-Cadastro-em-memoria\WebFormComponentes.aspx.cs">
+      <DependentUpon>WebFormComponentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="05-Cadastro-em-memoria\WebFormComponentes.aspx.designer.cs">
       <DependentUpon>WebFormComponentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFormMensagem.aspx.cs" Inherits="_01_Introducao_a_Aplicacao_Web._02_Componentes.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFormMensagem.aspx.cs" Inherits="_01_Introducao_a_Aplicacao_Web._05_Cadastro_em_memoria.WebForm1" %>
 
 <!DOCTYPE html>
 
