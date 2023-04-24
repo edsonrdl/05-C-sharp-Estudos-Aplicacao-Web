@@ -24,12 +24,18 @@
             <br />
             <br />
             <br />
-            <asp:DropDownList ID="ddlContatos" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+            <asp:DropDownList ID="ddlContatos" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="height: 22px">
             </asp:DropDownList>
             <br />
             <br />
             <br />
-            <select id="selectManual"></select>
+            <select id="selectTagHtml">
+               <% foreach (var contato in Contatos)
+                   {%>
+                    <option value="<%=contato.ID%>"><%=contato.Nome%></option>
+                <%} %>--%>
+            </select>
+           
         </p>
     </form>
 </body>
