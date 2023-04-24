@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="_01_Introducao_a_Aplicacao_Web.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFormMensagem.aspx.cs" Inherits="_01_Introducao_a_Aplicacao_Web.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -14,8 +14,8 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:TextBox ID="TextBoxMensagem" runat="server"></asp:TextBox>
-            <asp:Button ID="BtnMensagem" runat="server" Height="23px" Text="Mostrar Mensagem" />
+            <asp:TextBox ID="TextBoxMensagem" runat="server" Width="320px"></asp:TextBox>
+            <asp:Button ID="ButtonMensagem" runat="server" OnClick="ButtonMensagem_Click" Text="Enviar Mensagem" Width="210px" />
         </p>
         <p>
             &nbsp;</p>

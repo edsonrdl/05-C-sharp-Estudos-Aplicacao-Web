@@ -13,5 +13,16 @@ namespace _01_Introducao_a_Aplicacao_Web
         {
 
         }
+
+        protected void BtnMensagem(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonMensagem_Click(object sender, EventArgs e)
+        {
+            Response.Write("Olá " + TextBoxMensagem.Text);
+            Response.Write("<script>alert('Olá"+TextBoxMensagem.Text +"')</script> ");
+        }
     }
 }

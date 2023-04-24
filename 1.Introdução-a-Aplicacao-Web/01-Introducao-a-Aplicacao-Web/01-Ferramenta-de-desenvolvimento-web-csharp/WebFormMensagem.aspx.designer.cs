@@ -33,12 +33,12 @@ namespace _01_Introducao_a_Aplicacao_Web
         protected global::System.Web.UI.WebControls.TextBox TextBoxMensagem;
 
         /// <summary>
-        /// Controle BtnMensagem.
+        /// Controle ButtonMensagem.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnMensagem;
+        protected global::System.Web.UI.WebControls.Button ButtonMensagem;
     }
 }
